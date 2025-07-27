@@ -1,0 +1,82 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f7f6;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+}
+
+.main-content {
+  padding: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-top: 20px;
+  min-height: calc(100vh - 100px); /* Adjust based on navbar height */
+}
+
+.page-container {
+  padding: 20px;
+}
+
+.page-container h1 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.page-container p {
+  line-height: 1.6;
+}
+
+/* StreamList Specific Styles */
+.streamlist-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  gap: 10px;
+}
+
+.streamlist-input {
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 60%;
+  max-width: 400px;
+  font-size: 1rem;
+}
+
+.streamlist-button {
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.streamlist-button:hover {
+  background-color: #0056b3;
+}
+
+.submitted-display {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #e9f7ef;
+  border: 1px solid #d4edda;
+  border-radius: 8px;
+  color: #155724;
+}
+
+.submitted-display h3 {
+  color: #0d3615;
+  margin-bottom: 10px;
+}
